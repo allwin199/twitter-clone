@@ -63,6 +63,7 @@ const Modal = ({
                                 label={actionLabel}
                                 disabled={disabled}
                                 secondary
+                                large
                                 fullWidth
                                 onClick={handleSubmit}
                             />
