@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={inter.className}>
-                {/* <Modal isOpen /> */}
+                {/* <Modal isOpen title="Modal" actionLabel="Submit" /> */}
                 <Layout>{children}</Layout>
             </body>
         </html>
